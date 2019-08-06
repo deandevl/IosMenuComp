@@ -1,0 +1,21 @@
+{
+  "name": "iosmenucomp",
+  "version": "1.0.0",
+  "description": "A Vue.js (version >= 2.5) web component that provides client-side navigation to other component content ",
+  "main": "IosMenuComp.vue",
+  "repository": "git+https://github.com/deandevl/IosMenuComp.git",
+  "keywords": [
+    "Vue.js",
+    "IosMenuComp"
+  ],
+  "author": "Rick Dean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deandevl/IosMenuComp/issues"
+  },
+  "homepage": "https://github.com/deandevl/IosMenuComp#readme",
+  "dependencies": {
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1"
+  }
+}
