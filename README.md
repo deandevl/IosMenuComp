@@ -2,7 +2,7 @@
 
 **ios-menu-comp** is a Vue.js (version >= 2.5) web component based on client-side navigation.  It provides an open/closed menu of local routing links to  an application's html pages. 
 
-**ios-menu-comp** depends on the [vue.js](https://vuejs.org/ "Vue.js") framework and [vue-router](https://router.vuejs.org/en/vue-router) .  The dependencies can be installed via [npm install](https://docs.npmjs.com/cli/install.html "npm install") with the included `package.json` file. Three [webpack](https://webpack.js.org/concepts/) npm scripts are included for building  development, production, or hot recompile/execute of the demo.   `build-dev` and `build-prod` scripts produce  a `dist` folder containing the `index.html`.  The size of the `main.js` bundle using `build-prod` is 35 KiB along with calling a CDN for incorporating the Vue framework.
+ **ios-menu-comp** can be installed via with the included `package.json` file for a local installation via the [npm install](https://docs.npmjs.com/cli/install.html "npm install") command.  **button-comp** depends on the [vue.js](https://vuejs.org/ "Vue.js") framework and [vue-router](https://router.vuejs.org/en/vue-router) .  A demo folder is provided that used [Parcel](https://parceljs.org/) together with its associated `package.json` file to bundle together  **ios-menu-comp** with its dependencies for a simple application.  Further details are provided below for running the demo.
 
 ## Props
 
@@ -63,7 +63,7 @@ There are no events defined for **ios-menu-comp** .
 
 A demonstration of **ios-menu-comp** is provided in the [IosMenuComp](https://github.com/deandevl/IosMenuComp) repository by hosting the `index.html` file under the `dist` folder.  The parent component (templated in the`App.vue` file) defines a menu with four menu items and their associated paths to Vue.js components `HomeComp`, `CoinsComp`(2), and`AboutComp`.  We can navigate among all four of the menu items from the main menu.  The application itself uses the javascript `fetch` method to get the current exchange rates for Bitcoin and Ethereum at the [coin market site]( https://coinmarketcap.com).
 
-As a suggestion, install [http-server](https://www.npmjs.com/package/http-server "http-server") globally via [npm](https://www.npmjs.com/ "npm") then enter the command `http-server`in the **ios-menu-comp** `dist` directory.  From a browser enter the url: `localhost:8080/` to view the demo.
+As a suggestion, install [http-server](https://www.npmjs.com/package/http-server "http-server") locally/globally via [npm](https://www.npmjs.com/ "npm") then enter the command `http-server`in the **ios-menu-comp** `dist` directory.  From a browser enter the url: `localhost:8080/` to view the demo.
 
  Here is some example code for using **ios-menu-comp**  taken from the `App.vue` file :
 
